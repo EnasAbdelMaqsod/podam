@@ -1,4 +1,4 @@
 test:
   post:
-  mkdir $CIRCLE_ARTIFACTS/PODAM
-  mv podam/target/*.jar $CIRCLE_ARTIFACTS/PODAM
+  - mkdir -p $CIRCLE_ARTIFACTS/PODAM
+  - mv podam/target/*.jar $CIRCLE_ARTIFACTS/PODAM
