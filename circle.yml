@@ -2,4 +2,4 @@ test:
   post:
   - mkdir -p $CIRCLE_ARTIFACTS/PODAM
   - cp -r ~/podam/target/failsafe-reports $CIRCLE_ARTIFACTS/PODAM
-  - cp ~/podam/target/failsafe-reports/*.jar $CIRCLE_ARTIFACTS/PODAM
+  - cp ~/podam/target/*.jar $CIRCLE_ARTIFACTS/PODAM
